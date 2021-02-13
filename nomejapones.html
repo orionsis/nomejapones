@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="nomejapones.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Nome Japonês</title>
+</head>
+<body>
+    
+    <div id="divQuadro">
+    <div id="titulo"><h1>Nome Japonês</h1></div>
+    <div id="dados" class="conteudo">Descubra o nome em japonês:</div>
+        <div id="descnome">Digite o nome: </div>
+        <h2><div id="divNome"><input id="idNome" type="text" pattern="nome" onblur="valida_az()" onchange="caps()" onkeypress="caps()"></input></div></h2></br>
+        <div id="divBotao"><button id="btnConvert" onclick="converter()">Descobrir</button></div>
+        <h2><div id="divNomeJ"></div></h2>
+        <div id="obrigado">ありがと - Arigato - Obrigado</br></div>
+        <div id="cred">orionsis - 2020</div>
+    </div>
+    <script src="nomejapones.js"></script>
+</body>
+</html>
+
+

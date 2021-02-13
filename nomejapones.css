@@ -1,0 +1,68 @@
+.conteudo {
+   
+    text-align: center;
+    
+}
+
+
+.texto {
+    padding: 0px;
+    text-align: center;
+    border: solid 1px #000000;
+
+}
+
+#btnConvert {
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: darkgrey;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+}
+
+
+#btnConvert:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+    border-color: #ff0000;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+}
+
+#obrigado {
+    text-align: center;
+}
+
+#cred {
+    text-align: center;
+
+}
+
+#dados {
+    text-align: center;
+
+}
+
+
+#divQuadro {
+    border: solid 1px #000000;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+#idNome {
+    text-align: center;
+    
+
+
+}
+
+/* display: flex;
